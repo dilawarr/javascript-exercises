@@ -7,12 +7,12 @@ const fibonacci = function (num) {
 	let x = 1;
 	let y = 1;
 	let z = 0;
-	let i = 2;
-	while (i != num) {
+	let currentIndex = 2;
+	while (currentIndex != num) {
 		z = x + y;
 		x = y;
 		y = z;
-		i++;
+		currentIndex++;
 	}
 	return z;
 };
