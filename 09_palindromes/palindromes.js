@@ -1,6 +1,6 @@
 const palindromes = function (str) {
-	str = str.toLowerCase();
 	let normalizedStr = str
+		.toLowerCase()
 		.split("")
 		.filter(
 			(elem) => (elem >= "a" && elem <= "z") || (elem >= "0" && elem <= "9")
